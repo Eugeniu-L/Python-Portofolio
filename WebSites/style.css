@@ -1,0 +1,327 @@
+.body{
+  font-size: 14px;
+  font-weight: 100;
+  margin: 0;
+  color: rgba(0, 0, 0, 0.5) !important;
+  /* font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"; */
+}
+
+.h2{
+  margin: 0 !important;
+}
+
+.first-container{
+  position: relative;
+  text-align: center;
+  background: url("profile.jpg");
+  min-height: 1000px;
+  background-size: cover;
+  background-position: center center;
+}
+
+.background{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.nav-item{
+  font-size: 12px;
+  font-family: 'Montserrat', sans-serif;
+  letter-spacing: .3em;
+  color: #fff;
+  padding: 10px !important;
+}
+
+.introduction{
+  font-family: 'Montserrat', sans-serif;
+  color: #fff;
+  font-weight: 100;
+  top: 30%;
+  position: relative;
+  text-align: center;
+  line-height: 2;
+}
+
+.hello{
+  font-size: 50px;
+}
+
+.introduction-name{
+  font-weight: 900;
+  font-size: 60px;
+}
+
+.introduction-text{
+  font-weight: 400;
+  color: rgba(255, 255, 255, 0.5) !important;
+  font-size: 20px;
+  letter-spacing: .2em;
+}
+
+
+.site-section{
+  padding: 5% 10%;
+  background: #222;
+  color: #fff;
+}
+
+.div{
+  display: block;
+}
+
+.row{
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: -15px;
+  margin-right: -15px;
+}
+
+.section-heading{
+  margin-bottom: 30px;
+  position: relative;
+  z-index: 10;
+}
+
+.text-center{
+  text-align: center !important;
+}
+
+.section-heading h2{
+  position: relative;
+  font-weight: 200;
+  padding-top: 20px;
+  font-size: 30px;
+  line-height: 1.2;
+  font-family: inherit;
+  margin-bottom: 0.5rem;
+}
+
+.section-heading h2 strong{
+  font-weight: 800;
+}
+
+.filters{
+  text-align: center;
+}
+
+.filters ul{
+  padding: 0;
+  margin: 0 0 30px 0;
+}
+
+.container{
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.filters ul li{
+  display: inline-block;
+  /* cursor: pointer; */
+  padding: 20px;
+  font-size: 20px;
+  /* transition: .3s all ease; */
+}
+
+/* Container with portofolio image */
+.row{
+  margin: 0 !important;
+}
+
+.container-object{
+  padding: 0;
+  border-color: rgba(255, 255, 255, 0.5);
+}
+
+.portofolio-container{
+  padding-top: 30px;
+}
+
+.text{
+  padding-top: 20px;
+  font-weight: 100;
+  font-size: 20px;
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.text-title{
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.card{
+  background: #222;
+}
+
+/* # Section Resume  */
+.mb-5{
+  margin-bottom: 3rem !important;
+  font-size: 25px;
+  font-weight: 200;
+}
+
+@media (min-width: 768px)
+.col-md-12{
+  -webkit-box-flex:0;
+  flex: 0 0 100%;
+  max-width: 100%;
+}
+
+.col-6-md{
+  position: relative;
+  width: 100%;
+  min-height: 1px;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+.resume-item{
+  padding: 30px;
+  background: #333;
+  transition: .3s all ease;
+  border: 4px solid transparent;
+  border-radius: 7px;
+}
+
+.mb-4{
+  margin-bottom: 1.5rem !important;
+}
+
+.resume-item .date{
+  display: block;
+  margin-bottom: 10px;
+  font-size: 12px;
+  font-weight: 700;
+  color: #fff;
+}
+
+.resume-item *:last-child{
+  margin-bottom: 0;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  font-family: 'icomoon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+}
+
+.icon-calendar:before{
+  content: "\e979";
+}
+
+.resume-item h3 {
+  color: #bac964;
+  font-size: 20px;
+  font-weight: 200;
+  margin-bottom: 0.5rem;
+  line-height: 1.2;
+}
+
+p {
+  margin-top: 0;
+  margin-bottom: 1rem;
+}
+
+.text-resume{
+  font-size: 16px;
+  line-height: 1.7;
+  font-weight: 300;
+  color: rgba(255, 255, 255, 0.4);
+}
+
+.resume-item, .school{
+  color: rgba(255, 255, 255, 0.3);
+  display: block;
+  font-size: 16px;
+  font-weight: normal;
+}
+
+/* About ME Section */
+.lead{
+  font-weight: 200;
+  line-height: 1.5;
+  font-size: 1.25rem;
+  color: rgba(255, 255, 255, 0.4);
+  font-family: "Montserrat" sans-serif;
+}
+
+.lead2{
+  font-size: 16px;
+  font-weight: 200;
+  line-height: 1.7;
+  color: rgba(255, 255, 255, 0.4);
+  font-family: "Montserrat" sans-serif;
+}
+
+.btn.btn-primary{
+  color: #fff;
+}
+
+.btn{
+  border-radius: 100px;
+  text-transform: uppercase;
+  font-size: 12px;
+  letter-spacing: .2rem
+}
+
+/* CONTACT SECTION */
+
+.form-group{
+  margin-bottom: 1rem;
+}
+
+.form-control{
+  border: none !important;
+  background: #333;
+  color: #fff;
+  box-shadow: 0 1px 2px 0 rgb(0 0 0 / 10%) !important;
+  display: block;
+  width: 100%;
+  height: calc(2.25rem + 2px);
+  font-size: 1rem;
+  line-height: 1.5;
+}
+
+textarea.form-control{
+  height: auto;
+}
+
+.site-contact-details li{
+  list-style: none;
+  margin-bottom: 20px;
+  color: rgba(255, 255, 255, 0.4);
+  background: #222;
+  line-height: 1.7;
+  font-size: 16px;
+  font-weight: 300;
+}
+
+.site-contact-details li > span {
+    color: #2c3e50;
+    letter-spacing: .1em;
+    font-size: 12px;
+    font-weight: 500;
+    margin-bottom: 5px;
+    display: block;
+}
+
+.text-uppercase {
+  text-transform: uppercase !important;
+}
+
+
+.site-footer{
+  color: rgba(255, 255, 255, 0.4);
+  background: #222;
+  line-height: 1.7;
+  font-size: 16px;
+  font-weight: 300;
+  text-align: center;
+}
