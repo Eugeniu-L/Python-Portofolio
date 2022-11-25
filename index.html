@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Eugeniu Lupascu</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <section class="first-container">
+    <div class="background">
+      <nav class="navbar navbar-expand-lg">
+        <div class="container-fluid">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span>Menu</span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mx-auto">
+              <li class="nav-item">
+                <a class="nav-link nav-item" href="#">HOME</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link nav-item" href="#section-portofolio">PORTOFOLIO</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link nav-item" href="#section-resume">RESUME</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link nav-item" href="#section-about">ABOUT</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link nav-item" href="#section-contact">CONTACT</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <div class="introduction">
+        <h1 class="hello">Hello, I'm</h1>
+        <strong class="introduction-name">Eugeniu Lupascu<strong>
+            <p class="introduction-text">AND THIS IS MY RESUME</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="site-section" id="section-portofolio">
+    <div class="container">
+      <div class="row">
+        <div class="section-heading text-center col-md-12">
+          <h2>Featured <strong>Portfolio</strong></h2>
+        </div>
+      </div>
+      <div class="filters text-center">
+        <ul>
+          <li class="active" data-filter="*">SAP</li>
+          <li data-filter=".packaging" class="">Web Development</li>
+          <li data-filter=".mockup" class="">Python/GUI</li>
+          <li data-filter=".typography" class="">Data Science</li>
+          <li data-filter=".photography" class="">SQL</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="portofolio-container">
+      <div class="row">
+
+        <div class="col-lg-4 col-md-6 col-sm-12 card text-center container-object">
+          <div class="card-header text-center">
+            <h4 class="text-title">Web Development</h4>
+          </div>
+          <img src="images/p2.webp" alt="Generic placeholder image" width=100% height=350>
+
+          <p class="text">Create your digital world</p>
+          <div class="text"></div>
+          <p><a class="btn btn-secondary" href="#" role="button">View details »</a></p>
+        </div>
+
+
+        <div class="col-lg-4 col-md-6 col-sm-12 card text-center container-object">
+          <div class="card-header text-center">
+            <h4 class="text-title">GUI</h4>
+          </div>
+          <img src="images/p3.webp" alt="Generic placeholder image" width=100% height=350>
+          <p class="text">Create your Apps</p>
+          <div class="text"></div>
+          <p><a class="btn btn-secondary" href="#" role="button">View details »</a></p>
+        </div>
+
+
+        <div class="col-lg-4 col-md-12 col-sm-12 card text-center container-object">
+          <div class="card-header text-center">
+            <h4 class="text-title">Data Science</h4>
+          </div>
+          <img src="images/p4.webp" alt="Generic placeholder image" width=100% height=350>
+          <p class="text">A big world - a big set of data</p>
+          <div class="text"></div>
+          <p><a class="btn btn-secondary" href="#" role="button">View details »</a></p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="site-section" id="section-resume">
+    <container>
+      <div class="row">
+        <div class="col-md-12 mb-5">
+          <div class="section-heading text-center">
+            <h2>My <strong>Resume</strong></h2>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <h2 class="mb-5">Education</h2>
+          <div class="resume-item mb-4">
+            <span class="date"><span class="icon-calendar"></span> September 2014 - August 2018</span>
+            <h3>Licence in Information Technology</h3>
+            <p class="text-resume">The only higher education insitution for engineering in Republic of Moldova</p>
+            <span class="school">Technical University of Moldova</span>
+          </div>
+          <div class="resume-item mb-4">
+            <span class="date"><span class="icon-calendar"></span> January 2017 - December 2017</span>
+            <h3>SAP ERP</h3>
+            <p class="text-resume">Crystal System internal course for SAP ABAP/BI, DataScience.</p>
+            <span class="school">Crystal System Group</span>
+          </div>
+          <!-- <div class="resume-item mb-4">
+        <span class="date"><span class="icon-calendar"></span> March 2013 - Present</span>
+        <h3>Masteral in Information Technology</h3>
+        <p class="text-resume">Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic.</p>
+        <span class="school">New York University</span>
+      </div>
+      <div class="resume-item mb-4">
+        <span class="date"><span class="icon-calendar"></span> March 2013 - Present Deacember.</span>
+        <h3>Masteral in Information Technology</h3>
+        <p class="text-resume">Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic.</p>
+        <span class="school">New York University</span>
+      </div> -->
+        </div>
+        <div class="col-md-6">
+          <h2 class="mb-5">Experience</h2>
+          <div class="resume-item mb-4">
+            <span class="date"><span class="icon-calendar"></span> September 2017 - February 2018</span>
+            <h3>SAP BI Developer</h3>
+            <p class="text-resume">Creating a data flow: SAP ECC - SAP BI, to consolidate and export them into SAP Application Server.</p>
+            <span class="school">Luxottica</span>
+          </div>
+          <div class="resume-item mb-4">
+            <span class="date"><span class="icon-calendar"></span> December 2017 - September 2019</span>
+            <h3>SAP BI Developer</h3>
+            <p class="text-resume">Data Quality Reporting - Applying diferent business rules on the master data to check the compliance.</p>
+            <span class="school">British American Tabacco</span>
+          </div>
+          <div class="resume-item mb-4">
+            <span class="date"><span class="icon-calendar"></span> September 2019 - September 2022</span>
+            <h3>SAP BW Consultant</h3>
+            <p class="text-resume">Support and stabilisation of created flows and reports inside the SAP BW system.</p>
+            <span class="school">British American Tabacco</span>
+          </div>
+          <div class="resume-item mb-4">
+            <span class="date"><span class="icon-calendar"></span> Septmber 2022 - Present</span>
+            <h3>Python Developer</h3>
+            <p class="text-resume">GUI, WebScraping, HTML, CSS, SQL, DataScience</p>
+            <span class="school">Freelance</span>
+          </div>
+        </div>
+      </div>
+    </container>
+  </section>
+
+  <!-- About ME -->
+  <section class="site-section" id="section-about">
+    <div class="container">
+      <div class="row mb-5 align-items-center">
+        <div class="col-lg-7 pr-lg-5 mb-5 mb-lg-0">
+          <img src="profile.jpg" alt="Image placeholder" class="img-fluid">
+        </div>
+        <div class="col-lg-5 pl-lg-5">
+          <div class="section-heading">
+            <h2>About <strong>Me</strong></h2>
+          </div>
+          <p class="lead">Experienced SAP ABAP/BW Developer with a demonstrated history of working in the computer software industry.</p>
+          <p class="mb-5 lead2">Good knowledges in SAP, Python, SQL and DataScience, which have been implementing in different projects for Crystal-System, BAT(British American Tobacco), Luxottica.</p>
+          <p>
+            <a href="#section-contact" class="btn btn-primary px-4 py-2 btn-sm smoothscroll">Hire Me</a>
+            <!-- <a href="#" class="btn btn-secondary px-4 py-2 btn-sm">Download CV</a> -->
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- END About ME -->
+
+  <!-- CONTACT SECTION -->
+  <section class="site-section" id="section-contact">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12 mb-5">
+          <div class="section-heading text-center">
+            <h2>Get <strong>In Touch</strong></h2>
+          </div>
+        </div>
+        <div class="col-md-7 mb-5 mb-md-0">
+          <form action="" class="site-form">
+            <h3 class="mb-5">Get In Touch</h3>
+            <div class="form-group">
+              <input type="text" class="form-control px-3 py-4" placeholder="Your Name">
+            </div>
+            <div class="form-group">
+              <input type="email" class="form-control px-3 py-4" placeholder="Your Email">
+            </div>
+            <div class="form-group">
+              <input type="phone" class="form-control px-3 py-4" placeholder="Your Phone">
+            </div>
+            <div class="form-group mb-5">
+              <textarea class="form-control px-3 py-4" cols="30" rows="10" placeholder="Write a Message"></textarea>
+            </div>
+            <div class="form-group">
+              <input type="submit" class="btn btn-primary  px-4 py-3" value="Send Message">
+            </div>
+          </form>
+        </div>
+        <div class="col-md-5 pl-md-5">
+          <h3 class="mb-5">My Contact Details</h3>
+          <ul class="site-contact-details">
+            <li>
+              <span class="text-uppercase">Email</span>
+              eugeniu.lupascu01@gmail.com
+            </li>
+            <li>
+              <span class="text-uppercase">Phone</span>
+              +373 69 750 728
+            </li>
+            <!-- <li>
+              <span class="text-uppercase">Fax</span>
+              +30 976 1382 9922
+            </li> -->
+            <!-- <li>
+              <span class="text-uppercase">Address</span>
+              San Francisco, CA <br>
+              4th Floor8 Lower <br>
+              San Francisco street, M1 50F
+            </li> -->
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- END CONTACT SECTION -->
+
+</body>
+<footer class="site-footer">
+
+<p>Copyright © All rights reserved | Made by Eugeniu Lupascu</p>
+
+</footer>
+
+
+</html>
