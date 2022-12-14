@@ -1,0 +1,141 @@
+body {
+  font-family: "Montserrat", sans-serif;
+  background-color: #F9F3E6;
+  text-align: center;
+  color: #5E616A;
+}
+
+#navbar{
+  background-color: #E8AA8C;
+}
+
+.logo-image {
+  width: 45px;
+  height: 45px;
+}
+
+.scroll{
+  overflow: scroll;
+  height: 1000px;
+  overflow-x: hidden;
+}
+
+.container-style{
+  padding-top: 25px;
+  min-width: 100%;
+  margin: 0;
+  text-align: center;
+}
+
+
+.card-style{
+  color: #5E616A;
+  /* height: auto; */
+  width: 20rem;
+  text-align: center;
+  line-height: 1.5;
+  padding-bottom: 5px;
+}
+
+.card-padd{
+  padding-bottom: 20px;
+  padding-left: 25px;
+}
+
+.card-img{
+  height: 200px;
+}
+
+.placetype{
+  position: absolute;
+  right: 10px;
+  top: 15px;
+  color:#F9F3E6
+}
+
+.index{
+  position: absolute;
+  font-size: 20px;
+  left:10px;
+  top:15px;
+  color:#F9F3E6;
+}
+
+.btn-style{
+  position: relative;
+  bottom: 5px;
+  width: 50%;
+  left: 25%;
+}
+
+/* #details{
+
+} */
+
+.right-block{
+  text-align: left;
+  background-color: #E8AA8C;
+}
+
+.card-img-details{
+  height: 450px;
+}
+
+.card-text-details{
+  margin: 0;
+}
+
+.footer{
+  background-color: #E8AA8C;
+  color: #5E616A;
+  padding-top: 25px;
+  margin: 0%;
+}
+
+.about-into{
+  padding-top: 10%;
+  color: #E2DCD5;
+  font-size: 50px;
+
+}
+
+.about-text{
+  color: #E2DCD5;
+  font-size: 25px;
+}
+
+#contact{
+  color: #5E616A;
+  width: auto;
+  height: 950px;
+  text-align: left;
+}
+
+.into{
+  padding-top: 3%;
+  font-size: 50px;
+  text-align: center;
+  padding-bottom: 3%;
+}
+
+.form-group{
+  padding-bottom: 20px;
+  border: none !important;
+  /* background: #5E616A; */
+  color: #5E616A;
+  width: 100%;
+  font-size: 1rem;
+  line-height: 1;   
+}
+
+.site-contact-details{
+  padding-top: 20px;
+  font-size: 14px;
+  display: block;
+  letter-spacing: .1em;
+  line-height: 1.7;
+}
+
+.style{
+  padding-left: 10px;
+}
