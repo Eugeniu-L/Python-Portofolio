@@ -52,7 +52,7 @@ screen.update()
 while game_is_on:
     ball.move()
 
-    # Check if the ball bit a block
+    # Check if the ball hit a block
     for blocks in block.all_blocks:
         if blocks.distance(ball) < 30:
             ball.bounce_y()
