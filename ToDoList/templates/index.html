@@ -1,0 +1,48 @@
+{% include "header.html" %}
+
+  <!-- End Navbar Section  -->
+  <div class="create-below">
+    {% if mode == 1 %}
+    <a type="button" href="{{ url_for('main') }}" name="button" style="width:100%; background-color: #EAE3D2; color: #1C3879;">Create a new list</a>
+    {% else %}
+    <a type="button" name="button" style="width:100%; background-color: #EAE3D2; color: #1C3879;">Create your to-do list below</a>
+    {% endif %}
+    <!-- <p>Create your to-do list below</p> -->
+  </div>
+
+  <div>
+    <form class="" action="{{ url_for('main') }}" method="POST">
+      <input class="input-task" placeholder="Type here e.g. schedule a call with team" autocomplete="off" type="text" name="task" id="task-input">
+    </form>
+  </div>
+
+  <div class="table-task">
+    <table class="table table-hover table-responsive table-striped" style="background-color: #F9F5EB;">
+      <thead style="color: #1C3879;">
+        <tr>
+          <th scope="col">#</th>
+          <th scope="col">Task</th>
+          <th scope="col">Handle</th>
+          <th scope="col">Due data</th>
+        </tr>
+      </thead>
+      <tbody class="table-group-divider">
+        {% if mode == 1 %}
+        <!-- <button class="btn btn-sm mx-auto" type="button" style="border: 20px !important; background-color:#607EAA">New List</button> -->
+        {% for n in range(len) %}
+        <tr style="border-radius: 20px !important;">
+          <th scope="row"><input class="checkbox" type="checkbox" name="checkbox" id=""> {{ n }} </th>
+          <td class="task-line">{{ task[n] }}</td>
+          <td>Guest</td>
+          <td>22.12.2022</td>
+        </tr>
+        {% endfor %}
+        {% endif %}
+      </tbody>
+    </table>
+
+  </div>
+
+</body>
+
+{% include "footer.html" %}
